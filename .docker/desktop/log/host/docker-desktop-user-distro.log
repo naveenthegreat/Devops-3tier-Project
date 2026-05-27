@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------->8
+[2025-11-08T08:54:37.709028077Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/NAVEEN/.docker/contexts
+[2025-11-08T08:54:37.741394237Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/NAVEEN/.docker/contexts os.Symlink <HOME>/.docker/contexts -> /mnt/c/Users/NAVEEN/.docker/contexts
+-------------------------------------------------------------------------------->8
+[2025-11-08T08:54:38.626751913Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/NAVEEN/.aws, linkPath = <HOME>/.aws
+-------------------------------------------------------------------------------->8
+[2025-11-08T08:54:39.574315904Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/NAVEEN/.azure, linkPath = <HOME>/.azure
+-------------------------------------------------------------------------------->8
+[2025-11-08T08:54:40.647525544Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/NAVEEN/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+[2025-12-13T11:42:11.307148755Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/NAVEEN/.docker/contexts
+[2025-12-13T11:42:11.317351905Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/NAVEEN/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+[2025-12-13T11:42:11.768732051Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/NAVEEN/.aws, linkPath = <HOME>/.aws
+[2025-12-13T11:42:11.773698374Z][docker-desktop-user-distro] no need to symlink <HOME>/.aws to /mnt/c/Users/NAVEEN/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+[2025-12-13T11:42:12.325870177Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/NAVEEN/.azure, linkPath = <HOME>/.azure
+[2025-12-13T11:42:12.331214101Z][docker-desktop-user-distro] no need to symlink <HOME>/.azure to /mnt/c/Users/NAVEEN/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+[2025-12-13T11:42:12.944456499Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/NAVEEN/.docker/features.json, linkPath = ~/.docker/features.json
