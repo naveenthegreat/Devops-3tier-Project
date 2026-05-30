@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages {
+	stage('Clone Repository') {
+	    steps {
+		git 'https://github.com/naveenthegreat/Devops-3tier-Project'		}
+	}
+
+	stage('Build Backend') {
+	    steps {
+		sh 'docker build -t backend.app ./backend'
+	    }
+	}
+
+	stage('Build Frontend') {
+	    steps {
+		sh 'docker build -t frontend-app ./frontend'
+	    }
+	}
+    }
+}
