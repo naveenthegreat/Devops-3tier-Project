@@ -9,13 +9,13 @@ pipeline {
 
 	stage('Build Backend') {
 	    steps {
-		sh 'docker build -t backend.app ./backend'
+		sh 'docker build -t backend.app ./devops-project/backend'
 	    }
 	}
 
 	stage('Build Frontend') {
 	    steps {
-		sh 'docker build -t frontend-app ./frontend'
+		sh 'docker build -t frontend-app ./devops-project/frontend'
 	    }
 	}
     }
