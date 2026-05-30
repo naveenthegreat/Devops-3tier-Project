@@ -4,7 +4,7 @@ pipeline {
 	stage('Clone Repository') {
 	    steps {
 		git branch: 'main', 
-		url: 'https://github.com/naveenthegreat/Devops-3tier-Project'		}
+		url: 'https://github.com/naveenthegreat/Devops-3tier-Project.git'		}
 	}
 
 	stage('Build Backend') {
