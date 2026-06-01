@@ -4,9 +4,17 @@
 
 A production-grade 3-tier application built using React, Flask, and PostgreSQL. The project demonstrates modern DevOps practices including containerization, CI/CD automation, Kubernetes deployment, monitoring, and auto-scaling.
 
+
 ## Architecture
 
-Developer → GitHub → Jenkins → Docker → DockerHub → Kubernetes → Application → Prometheus → Grafana
+```mermaid
+flowchart TD
+Developer --> GitHub
+GitHub --> Jenkins
+Jenkins --> Docker
+Docker --> DockerHub
+DockerHub --> Kubernetes
+```
 
 ## Tech Stack
 
