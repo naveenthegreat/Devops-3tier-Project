@@ -6,3 +6,12 @@ __pycache__/
 .env
 .cache/
 .vscode/
+.cache/
+.config/
+.kube/
+.minikube/
+.aws/
+.azure/
+.bash_history
+.viminfo
+minikube-linux-amd64
