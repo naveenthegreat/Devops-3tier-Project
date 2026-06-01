@@ -9,12 +9,26 @@ A production-grade 3-tier application built using React, Flask, and PostgreSQL. 
 
 ```mermaid
 flowchart TD
-Developer --> GitHub
-GitHub --> Jenkins
-Jenkins --> Docker
-Docker --> DockerHub
-DockerHub --> Kubernetes
+    Dev[Developer] --> GitHub
+    GitHub --> Jenkins
+    Jenkins --> DockerBuild[Docker Build]
+    DockerBuild --> DockerHub
+    DockerHub --> Kubernetes
+
+    Kubernetes --> Frontend[Frontend Pods]
+    Kubernetes --> Backend[Backend Pods]
+    Backend --> PostgreSQL
+
+    Prometheus --> Frontend
+    Prometheus --> Backend
+    Prometheus --> PostgreSQL
+
+    Prometheus --> Grafana
+
+    HPA --> Frontend
+    HPA --> Backend
 ```
+
 
 ## Tech Stack
 
